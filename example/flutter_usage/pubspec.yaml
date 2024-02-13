@@ -1,0 +1,37 @@
+name: icomoon_download_example
+description: Flutter icomoon download example
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  icomoon_download:
+    path: ../../
+
+flutter:
+  fonts:
+    - family: Icomoon
+      fonts:
+        - asset: fonts/icomoon.ttf
+
+icomoon_download:
+  project_name: MyProject
+  host_id: "123456"
+  is_temp: true
+
+  output_selection_file: fonts/selection.json
+  output_class_file: lib/ui/icons.dart
+
+  class_name: UiIcons
+  format: true
+
+  verbose: false

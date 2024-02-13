@@ -1,0 +1,12 @@
+icomoon_download:
+  project_name: MyProject
+  host_id: "123456"
+  is_temp: true
+
+  output_selection_file: fonts/selection.json
+  output_class_file: lib/ui/icons.dart
+
+  class_name: UiIcons
+  format: true
+
+  verbose: false
