@@ -11,14 +11,23 @@ import 'package:yaml/yaml.dart';
 class IconmoonDownloadApi {
   final _dio = Dio(BaseOptions(baseUrl: 'https://i.icomoon.io/public/'));
 
+  /// The project is temporary by default.
   final bool isTemp;
+
+  /// The host id of the project.
   final String hostId;
+
+  /// The name of the project.
   final String projectName;
 
   /// * [isTemp] is used to determine if the project is a temporary project.
   /// * [hostId] is the host id of the project.
   /// * [projectName] is the name of the project.
-  IconmoonDownloadApi(this.isTemp, this.hostId, this.projectName);
+  IconmoonDownloadApi(
+    this.isTemp,
+    this.hostId,
+    this.projectName,
+  );
 
   /// Returns the selection.json of the project.
   Future<Map<String, dynamic>> getSelection() async {
@@ -70,6 +79,7 @@ class IconmoonDownloadApi {
   }
 
   /// Creates a file in the project.
+  /// * [path] is the path of the file to create.
   Future<File> createFile(String path) async {
     final rootDirectory = Directory.current.path;
     final filePath = join(rootDirectory, path);

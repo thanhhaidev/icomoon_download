@@ -2,7 +2,7 @@ name: icomoon_download
 description: >-
   A tool to download icomoon icons from icomoon.io and generate a dart file to use in Flutter (using icomoon_generator package)
   Provides an API and a CLI tool.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/thanhhaidev/icomoon_download
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
   collection: ^1.17.0
   dart_style: ^2.3.0
   dio: ^5.3.3
-  icomoon_generator: ^0.0.9
+  icomoon_generator: ^1.0.0
   logger: ^2.0.2+1
   path: ^1.8.3
   yaml: ^3.1.2
