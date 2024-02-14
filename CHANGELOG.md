@@ -1,3 +1,7 @@
+## 0.0.3
+* Add logger for CLI
+* Update README.md
+
 ## 0.0.2
 * Add Documentation for `common` package
 * Add Public APIs

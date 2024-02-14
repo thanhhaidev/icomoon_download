@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/icomoon_download.svg)](https://pub.dartlang.org/packages/icomoon_download)
 
-A tool to download icomoon icons from icomoon.io and generate a dart file to use in Flutter (using [icomoon_generator](https://pub.dartlang.org/packages/icomoon_download) package). Please note that this package is not affiliated with icomoon.io. It's just a tool to help you download and use icomoon icons in Flutter.
+A tool to download icomoon icons from icomoon.io and generate a dart file to use in Flutter (using [icomoon_generator](https://pub.dartlang.org/packages/icomoon_generator) package). Please note that this package is not affiliated with icomoon.io. It's just a tool to help you download and use icomoon icons in Flutter.
 
 ## Font generation
 

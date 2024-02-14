@@ -55,6 +55,7 @@ void _run(CliArguments parsedArgs) async {
       parsedArgs.hostId,
       parsedArgs.projectName,
     );
+    logger.i('Downloading IcoMoon font "${parsedArgs.projectName}"');
     final selectionData = await icomoonService.getSelection();
     final selection = Selection.fromJson(selectionData);
 
@@ -70,6 +71,7 @@ void _run(CliArguments parsedArgs) async {
       exit(1);
     }
 
+    logger.i('Downloading TTF file for "${selection.name}"');
     final ttf = await icomoonService.getTTF(selection.name);
     final ttfPath = fonts
         .singleWhere(
@@ -82,9 +84,12 @@ void _run(CliArguments parsedArgs) async {
       exit(1);
     }
 
+    logger.i('Creating TTF file for "${selection.name}"');
     final ttfFile = await icomoonService.createFile(ttfPath);
     await ttfFile.writeAsBytes(ttf);
+    logger.t('TTF file created: ${ttfFile.path}');
 
+    logger.i('Creating selection file for "${selection.name}"');
     final hasSelectionFile = parsedArgs.selectionFile != null;
     if (hasSelectionFile && !parsedArgs.selectionFile!.existsSync()) {
       parsedArgs.selectionFile!.createSync(recursive: true);
@@ -107,7 +112,9 @@ void _run(CliArguments parsedArgs) async {
         logger.t('Selection file created.');
       }
     }
+    logger.i('Selection file created: ${parsedArgs.selectionFile?.path}');
 
+    logger.i('Generating Flutter class for "${selection.name}"');
     var classString = generateFlutterClass(
       iconsList: selection.icons,
       className: parsedArgs.className,
@@ -121,6 +128,7 @@ void _run(CliArguments parsedArgs) async {
           'Output file for a Flutter class already exists (${parsedArgs.classFile.path}) - '
           'overwriting it');
     }
+    logger.i('Writing Flutter class to "${parsedArgs.classFile.path}"');
 
     if (parsedArgs.format ?? kDefaultFormat) {
       logger.t('Formatting Flutter class generation.');
@@ -128,6 +136,7 @@ void _run(CliArguments parsedArgs) async {
     }
 
     parsedArgs.classFile.writeAsStringSync(classString);
+    logger.i('Flutter class written to "${parsedArgs.classFile.path}"');
   } on Object catch (e) {
     logger.e(e.toString());
     exit(1);
