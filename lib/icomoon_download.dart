@@ -3,6 +3,6 @@
 ///
 /// The public API of the package is exposed through the following libraries:
 /// - `common.dart`
-library icomoon_download;
+library;
 
 export 'src/common.dart';

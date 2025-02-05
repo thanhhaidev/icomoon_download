@@ -1,3 +1,3 @@
-library icomoon_download.common;
+library;
 
 export 'common/api.dart';
