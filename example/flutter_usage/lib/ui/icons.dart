@@ -1,7 +1,7 @@
 // Generated code: do not hand-edit.
 
 // Generated using icomoon_generator.
-// Copyright © 2024 icomoon_generator (https://pub.dev/packages/icomoon_generator).
+// Copyright © 2025 icomoon_generator (https://pub.dev/packages/icomoon_generator).
 
 import 'package:flutter/widgets.dart';
 
@@ -41,8 +41,10 @@ class UiIcons {
   static const IconData office = IconData(0xe903, fontFamily: iconFontFamily);
 
   /// Font icon named "__newspaper__"
-  static const IconData newspaper =
-      IconData(0xe904, fontFamily: iconFontFamily);
+  static const IconData newspaper = IconData(
+    0xe904,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__pencil__"
   static const IconData pencil = IconData(0xe905, fontFamily: iconFontFamily);
@@ -60,15 +62,19 @@ class UiIcons {
   static const IconData blog = IconData(0xe909, fontFamily: iconFontFamily);
 
   /// Font icon named "__eyedropper__"
-  static const IconData eyedropper =
-      IconData(0xe90a, fontFamily: iconFontFamily);
+  static const IconData eyedropper = IconData(
+    0xe90a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__droplet__"
   static const IconData droplet = IconData(0xe90b, fontFamily: iconFontFamily);
 
   /// Font icon named "__paint-format__"
-  static const IconData paintFormat =
-      IconData(0xe90c, fontFamily: iconFontFamily);
+  static const IconData paintFormat = IconData(
+    0xe90c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__image__"
   static const IconData image = IconData(0xe90d, fontFamily: iconFontFamily);
@@ -80,8 +86,10 @@ class UiIcons {
   static const IconData camera = IconData(0xe90f, fontFamily: iconFontFamily);
 
   /// Font icon named "__headphones__"
-  static const IconData headphones =
-      IconData(0xe910, fontFamily: iconFontFamily);
+  static const IconData headphones = IconData(
+    0xe910,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__music__"
   static const IconData music = IconData(0xe911, fontFamily: iconFontFamily);
@@ -93,8 +101,10 @@ class UiIcons {
   static const IconData film = IconData(0xe913, fontFamily: iconFontFamily);
 
   /// Font icon named "__video-camera__"
-  static const IconData videoCamera =
-      IconData(0xe914, fontFamily: iconFontFamily);
+  static const IconData videoCamera = IconData(
+    0xe914,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__dice__"
   static const IconData dice = IconData(0xe915, fontFamily: iconFontFamily);
@@ -115,8 +125,10 @@ class UiIcons {
   static const IconData bullhorn = IconData(0xe91a, fontFamily: iconFontFamily);
 
   /// Font icon named "__connection__"
-  static const IconData connection =
-      IconData(0xe91b, fontFamily: iconFontFamily);
+  static const IconData connection = IconData(
+    0xe91b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__podcast__"
   static const IconData podcast = IconData(0xe91c, fontFamily: iconFontFamily);
@@ -134,8 +146,10 @@ class UiIcons {
   static const IconData books = IconData(0xe920, fontFamily: iconFontFamily);
 
   /// Font icon named "__library__"
-  static const IconData libraryIcon =
-      IconData(0xe921, fontFamily: iconFontFamily);
+  static const IconData libraryIcon = IconData(
+    0xe921,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-text__"
   static const IconData fileText = IconData(0xe922, fontFamily: iconFontFamily);
@@ -144,31 +158,43 @@ class UiIcons {
   static const IconData profile = IconData(0xe923, fontFamily: iconFontFamily);
 
   /// Font icon named "__file-empty__"
-  static const IconData fileEmpty =
-      IconData(0xe924, fontFamily: iconFontFamily);
+  static const IconData fileEmpty = IconData(
+    0xe924,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__files-empty__"
-  static const IconData filesEmpty =
-      IconData(0xe925, fontFamily: iconFontFamily);
+  static const IconData filesEmpty = IconData(
+    0xe925,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-text2__"
-  static const IconData fileText2 =
-      IconData(0xe926, fontFamily: iconFontFamily);
+  static const IconData fileText2 = IconData(
+    0xe926,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-picture__"
-  static const IconData filePicture =
-      IconData(0xe927, fontFamily: iconFontFamily);
+  static const IconData filePicture = IconData(
+    0xe927,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-music__"
-  static const IconData fileMusic =
-      IconData(0xe928, fontFamily: iconFontFamily);
+  static const IconData fileMusic = IconData(
+    0xe928,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-play__"
   static const IconData filePlay = IconData(0xe929, fontFamily: iconFontFamily);
 
   /// Font icon named "__file-video__"
-  static const IconData fileVideo =
-      IconData(0xe92a, fontFamily: iconFontFamily);
+  static const IconData fileVideo = IconData(
+    0xe92a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-zip__"
   static const IconData fileZip = IconData(0xe92b, fontFamily: iconFontFamily);
@@ -186,31 +212,43 @@ class UiIcons {
   static const IconData folder = IconData(0xe92f, fontFamily: iconFontFamily);
 
   /// Font icon named "__folder-open__"
-  static const IconData folderOpen =
-      IconData(0xe930, fontFamily: iconFontFamily);
+  static const IconData folderOpen = IconData(
+    0xe930,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__folder-plus__"
-  static const IconData folderPlus =
-      IconData(0xe931, fontFamily: iconFontFamily);
+  static const IconData folderPlus = IconData(
+    0xe931,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__folder-minus__"
-  static const IconData folderMinus =
-      IconData(0xe932, fontFamily: iconFontFamily);
+  static const IconData folderMinus = IconData(
+    0xe932,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__folder-download__"
-  static const IconData folderDownload =
-      IconData(0xe933, fontFamily: iconFontFamily);
+  static const IconData folderDownload = IconData(
+    0xe933,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__folder-upload__"
-  static const IconData folderUpload =
-      IconData(0xe934, fontFamily: iconFontFamily);
+  static const IconData folderUpload = IconData(
+    0xe934,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__price-tag__"
   static const IconData priceTag = IconData(0xe935, fontFamily: iconFontFamily);
 
   /// Font icon named "__price-tags__"
-  static const IconData priceTags =
-      IconData(0xe936, fontFamily: iconFontFamily);
+  static const IconData priceTags = IconData(
+    0xe936,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__barcode__"
   static const IconData barcode = IconData(0xe937, fontFamily: iconFontFamily);
@@ -225,26 +263,34 @@ class UiIcons {
   static const IconData cart = IconData(0xe93a, fontFamily: iconFontFamily);
 
   /// Font icon named "__coin-dollar__"
-  static const IconData coinDollar =
-      IconData(0xe93b, fontFamily: iconFontFamily);
+  static const IconData coinDollar = IconData(
+    0xe93b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__coin-euro__"
   static const IconData coinEuro = IconData(0xe93c, fontFamily: iconFontFamily);
 
   /// Font icon named "__coin-pound__"
-  static const IconData coinPound =
-      IconData(0xe93d, fontFamily: iconFontFamily);
+  static const IconData coinPound = IconData(
+    0xe93d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__coin-yen__"
   static const IconData coinYen = IconData(0xe93e, fontFamily: iconFontFamily);
 
   /// Font icon named "__credit-card__"
-  static const IconData creditCard =
-      IconData(0xe93f, fontFamily: iconFontFamily);
+  static const IconData creditCard = IconData(
+    0xe93f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__calculator__"
-  static const IconData calculator =
-      IconData(0xe940, fontFamily: iconFontFamily);
+  static const IconData calculator = IconData(
+    0xe940,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__lifebuoy__"
   static const IconData lifebuoy = IconData(0xe941, fontFamily: iconFontFamily);
@@ -253,12 +299,16 @@ class UiIcons {
   static const IconData phone = IconData(0xe942, fontFamily: iconFontFamily);
 
   /// Font icon named "__phone-hang-up__"
-  static const IconData phoneHangUp =
-      IconData(0xe943, fontFamily: iconFontFamily);
+  static const IconData phoneHangUp = IconData(
+    0xe943,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__address-book__"
-  static const IconData addressBook =
-      IconData(0xe944, fontFamily: iconFontFamily);
+  static const IconData addressBook = IconData(
+    0xe944,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__envelop__"
   static const IconData envelop = IconData(0xe945, fontFamily: iconFontFamily);
@@ -270,8 +320,10 @@ class UiIcons {
   static const IconData location = IconData(0xe947, fontFamily: iconFontFamily);
 
   /// Font icon named "__location2__"
-  static const IconData location2 =
-      IconData(0xe948, fontFamily: iconFontFamily);
+  static const IconData location2 = IconData(
+    0xe948,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__compass__"
   static const IconData compass = IconData(0xe949, fontFamily: iconFontFamily);
@@ -301,8 +353,10 @@ class UiIcons {
   static const IconData bell = IconData(0xe951, fontFamily: iconFontFamily);
 
   /// Font icon named "__stopwatch__"
-  static const IconData stopwatch =
-      IconData(0xe952, fontFamily: iconFontFamily);
+  static const IconData stopwatch = IconData(
+    0xe952,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__calendar__"
   static const IconData calendar = IconData(0xe953, fontFamily: iconFontFamily);
@@ -341,8 +395,10 @@ class UiIcons {
   static const IconData boxAdd = IconData(0xe95e, fontFamily: iconFontFamily);
 
   /// Font icon named "__box-remove__"
-  static const IconData boxRemove =
-      IconData(0xe95f, fontFamily: iconFontFamily);
+  static const IconData boxRemove = IconData(
+    0xe95f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__download__"
   static const IconData download = IconData(0xe960, fontFamily: iconFontFamily);
@@ -351,8 +407,10 @@ class UiIcons {
   static const IconData upload = IconData(0xe961, fontFamily: iconFontFamily);
 
   /// Font icon named "__floppy-disk__"
-  static const IconData floppyDisk =
-      IconData(0xe962, fontFamily: iconFontFamily);
+  static const IconData floppyDisk = IconData(
+    0xe962,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__drive__"
   static const IconData drive = IconData(0xe963, fontFamily: iconFontFamily);
@@ -406,27 +464,37 @@ class UiIcons {
   static const IconData userPlus = IconData(0xe973, fontFamily: iconFontFamily);
 
   /// Font icon named "__user-minus__"
-  static const IconData userMinus =
-      IconData(0xe974, fontFamily: iconFontFamily);
+  static const IconData userMinus = IconData(
+    0xe974,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__user-check__"
-  static const IconData userCheck =
-      IconData(0xe975, fontFamily: iconFontFamily);
+  static const IconData userCheck = IconData(
+    0xe975,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__user-tie__"
   static const IconData userTie = IconData(0xe976, fontFamily: iconFontFamily);
 
   /// Font icon named "__quotes-left__"
-  static const IconData quotesLeft =
-      IconData(0xe977, fontFamily: iconFontFamily);
+  static const IconData quotesLeft = IconData(
+    0xe977,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__quotes-right__"
-  static const IconData quotesRight =
-      IconData(0xe978, fontFamily: iconFontFamily);
+  static const IconData quotesRight = IconData(
+    0xe978,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__hour-glass__"
-  static const IconData hourGlass =
-      IconData(0xe979, fontFamily: iconFontFamily);
+  static const IconData hourGlass = IconData(
+    0xe979,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__spinner__"
   static const IconData spinner = IconData(0xe97a, fontFamily: iconFontFamily);
@@ -456,16 +524,22 @@ class UiIcons {
   static const IconData spinner9 = IconData(0xe982, fontFamily: iconFontFamily);
 
   /// Font icon named "__spinner10__"
-  static const IconData spinner10 =
-      IconData(0xe983, fontFamily: iconFontFamily);
+  static const IconData spinner10 = IconData(
+    0xe983,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__spinner11__"
-  static const IconData spinner11 =
-      IconData(0xe984, fontFamily: iconFontFamily);
+  static const IconData spinner11 = IconData(
+    0xe984,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__binoculars__"
-  static const IconData binoculars =
-      IconData(0xe985, fontFamily: iconFontFamily);
+  static const IconData binoculars = IconData(
+    0xe985,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__search__"
   static const IconData search = IconData(0xe986, fontFamily: iconFontFamily);
@@ -504,12 +578,16 @@ class UiIcons {
   static const IconData wrench = IconData(0xe991, fontFamily: iconFontFamily);
 
   /// Font icon named "__equalizer__"
-  static const IconData equalizer =
-      IconData(0xe992, fontFamily: iconFontFamily);
+  static const IconData equalizer = IconData(
+    0xe992,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__equalizer2__"
-  static const IconData equalizer2 =
-      IconData(0xe993, fontFamily: iconFontFamily);
+  static const IconData equalizer2 = IconData(
+    0xe993,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__cog__"
   static const IconData cog = IconData(0xe994, fontFamily: iconFontFamily);
@@ -521,8 +599,10 @@ class UiIcons {
   static const IconData hammer = IconData(0xe996, fontFamily: iconFontFamily);
 
   /// Font icon named "__magic-wand__"
-  static const IconData magicWand =
-      IconData(0xe997, fontFamily: iconFontFamily);
+  static const IconData magicWand = IconData(
+    0xe997,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__aid-kit__"
   static const IconData aidKit = IconData(0xe998, fontFamily: iconFontFamily);
@@ -534,16 +614,22 @@ class UiIcons {
   static const IconData pieChart = IconData(0xe99a, fontFamily: iconFontFamily);
 
   /// Font icon named "__stats-dots__"
-  static const IconData statsDots =
-      IconData(0xe99b, fontFamily: iconFontFamily);
+  static const IconData statsDots = IconData(
+    0xe99b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__stats-bars__"
-  static const IconData statsBars =
-      IconData(0xe99c, fontFamily: iconFontFamily);
+  static const IconData statsBars = IconData(
+    0xe99c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__stats-bars2__"
-  static const IconData statsBars2 =
-      IconData(0xe99d, fontFamily: iconFontFamily);
+  static const IconData statsBars2 = IconData(
+    0xe99d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__trophy__"
   static const IconData trophy = IconData(0xe99e, fontFamily: iconFontFamily);
@@ -561,8 +647,10 @@ class UiIcons {
   static const IconData mug = IconData(0xe9a2, fontFamily: iconFontFamily);
 
   /// Font icon named "__spoon-knife__"
-  static const IconData spoonKnife =
-      IconData(0xe9a3, fontFamily: iconFontFamily);
+  static const IconData spoonKnife = IconData(
+    0xe9a3,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__leaf__"
   static const IconData leaf = IconData(0xe9a4, fontFamily: iconFontFamily);
@@ -595,8 +683,10 @@ class UiIcons {
   static const IconData bin2 = IconData(0xe9ad, fontFamily: iconFontFamily);
 
   /// Font icon named "__briefcase__"
-  static const IconData briefcase =
-      IconData(0xe9ae, fontFamily: iconFontFamily);
+  static const IconData briefcase = IconData(
+    0xe9ae,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__airplane__"
   static const IconData airplane = IconData(0xe9af, fontFamily: iconFontFamily);
@@ -608,8 +698,10 @@ class UiIcons {
   static const IconData road = IconData(0xe9b1, fontFamily: iconFontFamily);
 
   /// Font icon named "__accessibility__"
-  static const IconData accessibility =
-      IconData(0xe9b2, fontFamily: iconFontFamily);
+  static const IconData accessibility = IconData(
+    0xe9b2,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__target__"
   static const IconData target = IconData(0xe9b3, fontFamily: iconFontFamily);
@@ -621,20 +713,28 @@ class UiIcons {
   static const IconData power = IconData(0xe9b5, fontFamily: iconFontFamily);
 
   /// Font icon named "__switch__"
-  static const IconData switchIcon =
-      IconData(0xe9b6, fontFamily: iconFontFamily);
+  static const IconData switchIcon = IconData(
+    0xe9b6,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__power-cord__"
-  static const IconData powerCord =
-      IconData(0xe9b7, fontFamily: iconFontFamily);
+  static const IconData powerCord = IconData(
+    0xe9b7,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__clipboard__"
-  static const IconData clipboard =
-      IconData(0xe9b8, fontFamily: iconFontFamily);
+  static const IconData clipboard = IconData(
+    0xe9b8,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__list-numbered__"
-  static const IconData listNumbered =
-      IconData(0xe9b9, fontFamily: iconFontFamily);
+  static const IconData listNumbered = IconData(
+    0xe9b9,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__list__"
   static const IconData list = IconData(0xe9ba, fontFamily: iconFontFamily);
@@ -661,27 +761,37 @@ class UiIcons {
   static const IconData cloud = IconData(0xe9c1, fontFamily: iconFontFamily);
 
   /// Font icon named "__cloud-download__"
-  static const IconData cloudDownload =
-      IconData(0xe9c2, fontFamily: iconFontFamily);
+  static const IconData cloudDownload = IconData(
+    0xe9c2,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__cloud-upload__"
-  static const IconData cloudUpload =
-      IconData(0xe9c3, fontFamily: iconFontFamily);
+  static const IconData cloudUpload = IconData(
+    0xe9c3,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__cloud-check__"
-  static const IconData cloudCheck =
-      IconData(0xe9c4, fontFamily: iconFontFamily);
+  static const IconData cloudCheck = IconData(
+    0xe9c4,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__download2__"
-  static const IconData download2 =
-      IconData(0xe9c5, fontFamily: iconFontFamily);
+  static const IconData download2 = IconData(
+    0xe9c5,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__upload2__"
   static const IconData upload2 = IconData(0xe9c6, fontFamily: iconFontFamily);
 
   /// Font icon named "__download3__"
-  static const IconData download3 =
-      IconData(0xe9c7, fontFamily: iconFontFamily);
+  static const IconData download3 = IconData(
+    0xe9c7,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__upload3__"
   static const IconData upload3 = IconData(0xe9c8, fontFamily: iconFontFamily);
@@ -699,8 +809,10 @@ class UiIcons {
   static const IconData flag = IconData(0xe9cc, fontFamily: iconFontFamily);
 
   /// Font icon named "__attachment__"
-  static const IconData attachment =
-      IconData(0xe9cd, fontFamily: iconFontFamily);
+  static const IconData attachment = IconData(
+    0xe9cd,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__eye__"
   static const IconData eye = IconData(0xe9ce, fontFamily: iconFontFamily);
@@ -712,15 +824,19 @@ class UiIcons {
   static const IconData eyeMinus = IconData(0xe9d0, fontFamily: iconFontFamily);
 
   /// Font icon named "__eye-blocked__"
-  static const IconData eyeBlocked =
-      IconData(0xe9d1, fontFamily: iconFontFamily);
+  static const IconData eyeBlocked = IconData(
+    0xe9d1,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__bookmark__"
   static const IconData bookmark = IconData(0xe9d2, fontFamily: iconFontFamily);
 
   /// Font icon named "__bookmarks__"
-  static const IconData bookmarks =
-      IconData(0xe9d3, fontFamily: iconFontFamily);
+  static const IconData bookmarks = IconData(
+    0xe9d3,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sun__"
   static const IconData sun = IconData(0xe9d4, fontFamily: iconFontFamily);
@@ -729,12 +845,16 @@ class UiIcons {
   static const IconData contrast = IconData(0xe9d5, fontFamily: iconFontFamily);
 
   /// Font icon named "__brightness-contrast__"
-  static const IconData brightnessContrast =
-      IconData(0xe9d6, fontFamily: iconFontFamily);
+  static const IconData brightnessContrast = IconData(
+    0xe9d6,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__star-empty__"
-  static const IconData starEmpty =
-      IconData(0xe9d7, fontFamily: iconFontFamily);
+  static const IconData starEmpty = IconData(
+    0xe9d7,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__star-half__"
   static const IconData starHalf = IconData(0xe9d8, fontFamily: iconFontFamily);
@@ -746,8 +866,10 @@ class UiIcons {
   static const IconData heart = IconData(0xe9da, fontFamily: iconFontFamily);
 
   /// Font icon named "__heart-broken__"
-  static const IconData heartBroken =
-      IconData(0xe9db, fontFamily: iconFontFamily);
+  static const IconData heartBroken = IconData(
+    0xe9db,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__man__"
   static const IconData man = IconData(0xe9dc, fontFamily: iconFontFamily);
@@ -828,8 +950,10 @@ class UiIcons {
   static const IconData confused = IconData(0xe9f5, fontFamily: iconFontFamily);
 
   /// Font icon named "__confused2__"
-  static const IconData confused2 =
-      IconData(0xe9f6, fontFamily: iconFontFamily);
+  static const IconData confused2 = IconData(
+    0xe9f6,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__neutral__"
   static const IconData neutral = IconData(0xe9f7, fontFamily: iconFontFamily);
@@ -844,12 +968,16 @@ class UiIcons {
   static const IconData hipster2 = IconData(0xe9fa, fontFamily: iconFontFamily);
 
   /// Font icon named "__wondering__"
-  static const IconData wondering =
-      IconData(0xe9fb, fontFamily: iconFontFamily);
+  static const IconData wondering = IconData(
+    0xe9fb,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__wondering2__"
-  static const IconData wondering2 =
-      IconData(0xe9fc, fontFamily: iconFontFamily);
+  static const IconData wondering2 = IconData(
+    0xe9fc,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sleepy__"
   static const IconData sleepy = IconData(0xe9fd, fontFamily: iconFontFamily);
@@ -858,12 +986,16 @@ class UiIcons {
   static const IconData sleepy2 = IconData(0xe9fe, fontFamily: iconFontFamily);
 
   /// Font icon named "__frustrated__"
-  static const IconData frustrated =
-      IconData(0xe9ff, fontFamily: iconFontFamily);
+  static const IconData frustrated = IconData(
+    0xe9ff,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__frustrated2__"
-  static const IconData frustrated2 =
-      IconData(0xea00, fontFamily: iconFontFamily);
+  static const IconData frustrated2 = IconData(
+    0xea00,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__crying__"
   static const IconData crying = IconData(0xea01, fontFamily: iconFontFamily);
@@ -875,23 +1007,31 @@ class UiIcons {
   static const IconData pointUp = IconData(0xea03, fontFamily: iconFontFamily);
 
   /// Font icon named "__point-right__"
-  static const IconData pointRight =
-      IconData(0xea04, fontFamily: iconFontFamily);
+  static const IconData pointRight = IconData(
+    0xea04,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__point-down__"
-  static const IconData pointDown =
-      IconData(0xea05, fontFamily: iconFontFamily);
+  static const IconData pointDown = IconData(
+    0xea05,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__point-left__"
-  static const IconData pointLeft =
-      IconData(0xea06, fontFamily: iconFontFamily);
+  static const IconData pointLeft = IconData(
+    0xea06,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__warning__"
   static const IconData warning = IconData(0xea07, fontFamily: iconFontFamily);
 
   /// Font icon named "__notification__"
-  static const IconData notification =
-      IconData(0xea08, fontFamily: iconFontFamily);
+  static const IconData notification = IconData(
+    0xea08,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__question__"
   static const IconData question = IconData(0xea09, fontFamily: iconFontFamily);
@@ -906,8 +1046,10 @@ class UiIcons {
   static const IconData info = IconData(0xea0c, fontFamily: iconFontFamily);
 
   /// Font icon named "__cancel-circle__"
-  static const IconData cancelCircle =
-      IconData(0xea0d, fontFamily: iconFontFamily);
+  static const IconData cancelCircle = IconData(
+    0xea0d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__blocked__"
   static const IconData blocked = IconData(0xea0e, fontFamily: iconFontFamily);
@@ -916,16 +1058,22 @@ class UiIcons {
   static const IconData cross = IconData(0xea0f, fontFamily: iconFontFamily);
 
   /// Font icon named "__checkmark__"
-  static const IconData checkmark =
-      IconData(0xea10, fontFamily: iconFontFamily);
+  static const IconData checkmark = IconData(
+    0xea10,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__checkmark2__"
-  static const IconData checkmark2 =
-      IconData(0xea11, fontFamily: iconFontFamily);
+  static const IconData checkmark2 = IconData(
+    0xea11,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__spell-check__"
-  static const IconData spellCheck =
-      IconData(0xea12, fontFamily: iconFontFamily);
+  static const IconData spellCheck = IconData(
+    0xea12,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__enter__"
   static const IconData enter = IconData(0xea13, fontFamily: iconFontFamily);
@@ -964,8 +1112,10 @@ class UiIcons {
   static const IconData stop2 = IconData(0xea1e, fontFamily: iconFontFamily);
 
   /// Font icon named "__backward2__"
-  static const IconData backward2 =
-      IconData(0xea1f, fontFamily: iconFontFamily);
+  static const IconData backward2 = IconData(
+    0xea1f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__forward3__"
   static const IconData forward3 = IconData(0xea20, fontFamily: iconFontFamily);
@@ -977,8 +1127,10 @@ class UiIcons {
   static const IconData last = IconData(0xea22, fontFamily: iconFontFamily);
 
   /// Font icon named "__previous2__"
-  static const IconData previous2 =
-      IconData(0xea23, fontFamily: iconFontFamily);
+  static const IconData previous2 = IconData(
+    0xea23,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__next2__"
   static const IconData next2 = IconData(0xea24, fontFamily: iconFontFamily);
@@ -987,32 +1139,46 @@ class UiIcons {
   static const IconData eject = IconData(0xea25, fontFamily: iconFontFamily);
 
   /// Font icon named "__volume-high__"
-  static const IconData volumeHigh =
-      IconData(0xea26, fontFamily: iconFontFamily);
+  static const IconData volumeHigh = IconData(
+    0xea26,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-medium__"
-  static const IconData volumeMedium =
-      IconData(0xea27, fontFamily: iconFontFamily);
+  static const IconData volumeMedium = IconData(
+    0xea27,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-low__"
-  static const IconData volumeLow =
-      IconData(0xea28, fontFamily: iconFontFamily);
+  static const IconData volumeLow = IconData(
+    0xea28,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-mute__"
-  static const IconData volumeMute =
-      IconData(0xea29, fontFamily: iconFontFamily);
+  static const IconData volumeMute = IconData(
+    0xea29,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-mute2__"
-  static const IconData volumeMute2 =
-      IconData(0xea2a, fontFamily: iconFontFamily);
+  static const IconData volumeMute2 = IconData(
+    0xea2a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-increase__"
-  static const IconData volumeIncrease =
-      IconData(0xea2b, fontFamily: iconFontFamily);
+  static const IconData volumeIncrease = IconData(
+    0xea2b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__volume-decrease__"
-  static const IconData volumeDecrease =
-      IconData(0xea2c, fontFamily: iconFontFamily);
+  static const IconData volumeDecrease = IconData(
+    0xea2c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__loop__"
   static const IconData loop = IconData(0xea2d, fontFamily: iconFontFamily);
@@ -1027,81 +1193,115 @@ class UiIcons {
   static const IconData shuffle = IconData(0xea30, fontFamily: iconFontFamily);
 
   /// Font icon named "__arrow-up-left__"
-  static const IconData arrowUpLeft =
-      IconData(0xea31, fontFamily: iconFontFamily);
+  static const IconData arrowUpLeft = IconData(
+    0xea31,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-up__"
   static const IconData arrowUp = IconData(0xea32, fontFamily: iconFontFamily);
 
   /// Font icon named "__arrow-up-right__"
-  static const IconData arrowUpRight =
-      IconData(0xea33, fontFamily: iconFontFamily);
+  static const IconData arrowUpRight = IconData(
+    0xea33,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-right__"
-  static const IconData arrowRight =
-      IconData(0xea34, fontFamily: iconFontFamily);
+  static const IconData arrowRight = IconData(
+    0xea34,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down-right__"
-  static const IconData arrowDownRight =
-      IconData(0xea35, fontFamily: iconFontFamily);
+  static const IconData arrowDownRight = IconData(
+    0xea35,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down__"
-  static const IconData arrowDown =
-      IconData(0xea36, fontFamily: iconFontFamily);
+  static const IconData arrowDown = IconData(
+    0xea36,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down-left__"
-  static const IconData arrowDownLeft =
-      IconData(0xea37, fontFamily: iconFontFamily);
+  static const IconData arrowDownLeft = IconData(
+    0xea37,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-left__"
-  static const IconData arrowLeft =
-      IconData(0xea38, fontFamily: iconFontFamily);
+  static const IconData arrowLeft = IconData(
+    0xea38,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-up-left2__"
-  static const IconData arrowUpLeft2 =
-      IconData(0xea39, fontFamily: iconFontFamily);
+  static const IconData arrowUpLeft2 = IconData(
+    0xea39,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-up2__"
   static const IconData arrowUp2 = IconData(0xea3a, fontFamily: iconFontFamily);
 
   /// Font icon named "__arrow-up-right2__"
-  static const IconData arrowUpRight2 =
-      IconData(0xea3b, fontFamily: iconFontFamily);
+  static const IconData arrowUpRight2 = IconData(
+    0xea3b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-right2__"
-  static const IconData arrowRight2 =
-      IconData(0xea3c, fontFamily: iconFontFamily);
+  static const IconData arrowRight2 = IconData(
+    0xea3c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down-right2__"
-  static const IconData arrowDownRight2 =
-      IconData(0xea3d, fontFamily: iconFontFamily);
+  static const IconData arrowDownRight2 = IconData(
+    0xea3d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down2__"
-  static const IconData arrowDown2 =
-      IconData(0xea3e, fontFamily: iconFontFamily);
+  static const IconData arrowDown2 = IconData(
+    0xea3e,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-down-left2__"
-  static const IconData arrowDownLeft2 =
-      IconData(0xea3f, fontFamily: iconFontFamily);
+  static const IconData arrowDownLeft2 = IconData(
+    0xea3f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__arrow-left2__"
-  static const IconData arrowLeft2 =
-      IconData(0xea40, fontFamily: iconFontFamily);
+  static const IconData arrowLeft2 = IconData(
+    0xea40,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__circle-up__"
   static const IconData circleUp = IconData(0xea41, fontFamily: iconFontFamily);
 
   /// Font icon named "__circle-right__"
-  static const IconData circleRight =
-      IconData(0xea42, fontFamily: iconFontFamily);
+  static const IconData circleRight = IconData(
+    0xea42,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__circle-down__"
-  static const IconData circleDown =
-      IconData(0xea43, fontFamily: iconFontFamily);
+  static const IconData circleDown = IconData(
+    0xea43,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__circle-left__"
-  static const IconData circleLeft =
-      IconData(0xea44, fontFamily: iconFontFamily);
+  static const IconData circleLeft = IconData(
+    0xea44,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__tab__"
   static const IconData tab = IconData(0xea45, fontFamily: iconFontFamily);
@@ -1113,28 +1313,40 @@ class UiIcons {
   static const IconData moveDown = IconData(0xea47, fontFamily: iconFontFamily);
 
   /// Font icon named "__sort-alpha-asc__"
-  static const IconData sortAlphaAsc =
-      IconData(0xea48, fontFamily: iconFontFamily);
+  static const IconData sortAlphaAsc = IconData(
+    0xea48,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sort-alpha-desc__"
-  static const IconData sortAlphaDesc =
-      IconData(0xea49, fontFamily: iconFontFamily);
+  static const IconData sortAlphaDesc = IconData(
+    0xea49,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sort-numeric-asc__"
-  static const IconData sortNumericAsc =
-      IconData(0xea4a, fontFamily: iconFontFamily);
+  static const IconData sortNumericAsc = IconData(
+    0xea4a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sort-numberic-desc__"
-  static const IconData sortNumbericDesc =
-      IconData(0xea4b, fontFamily: iconFontFamily);
+  static const IconData sortNumbericDesc = IconData(
+    0xea4b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sort-amount-asc__"
-  static const IconData sortAmountAsc =
-      IconData(0xea4c, fontFamily: iconFontFamily);
+  static const IconData sortAmountAsc = IconData(
+    0xea4c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__sort-amount-desc__"
-  static const IconData sortAmountDesc =
-      IconData(0xea4d, fontFamily: iconFontFamily);
+  static const IconData sortAmountDesc = IconData(
+    0xea4d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__command__"
   static const IconData command = IconData(0xea4e, fontFamily: iconFontFamily);
@@ -1149,31 +1361,43 @@ class UiIcons {
   static const IconData opt = IconData(0xea51, fontFamily: iconFontFamily);
 
   /// Font icon named "__checkbox-checked__"
-  static const IconData checkboxChecked =
-      IconData(0xea52, fontFamily: iconFontFamily);
+  static const IconData checkboxChecked = IconData(
+    0xea52,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__checkbox-unchecked__"
-  static const IconData checkboxUnchecked =
-      IconData(0xea53, fontFamily: iconFontFamily);
+  static const IconData checkboxUnchecked = IconData(
+    0xea53,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__radio-checked__"
-  static const IconData radioChecked =
-      IconData(0xea54, fontFamily: iconFontFamily);
+  static const IconData radioChecked = IconData(
+    0xea54,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__radio-checked2__"
-  static const IconData radioChecked2 =
-      IconData(0xea55, fontFamily: iconFontFamily);
+  static const IconData radioChecked2 = IconData(
+    0xea55,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__radio-unchecked__"
-  static const IconData radioUnchecked =
-      IconData(0xea56, fontFamily: iconFontFamily);
+  static const IconData radioUnchecked = IconData(
+    0xea56,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__crop__"
   static const IconData crop = IconData(0xea57, fontFamily: iconFontFamily);
 
   /// Font icon named "__make-group__"
-  static const IconData makeGroup =
-      IconData(0xea58, fontFamily: iconFontFamily);
+  static const IconData makeGroup = IconData(
+    0xea58,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__ungroup__"
   static const IconData ungroup = IconData(0xea59, fontFamily: iconFontFamily);
@@ -1191,16 +1415,22 @@ class UiIcons {
   static const IconData ligature = IconData(0xea5d, fontFamily: iconFontFamily);
 
   /// Font icon named "__ligature2__"
-  static const IconData ligature2 =
-      IconData(0xea5e, fontFamily: iconFontFamily);
+  static const IconData ligature2 = IconData(
+    0xea5e,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__text-height__"
-  static const IconData textHeight =
-      IconData(0xea5f, fontFamily: iconFontFamily);
+  static const IconData textHeight = IconData(
+    0xea5f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__text-width__"
-  static const IconData textWidth =
-      IconData(0xea60, fontFamily: iconFontFamily);
+  static const IconData textWidth = IconData(
+    0xea60,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__font-size__"
   static const IconData fontSize = IconData(0xea61, fontFamily: iconFontFamily);
@@ -1209,15 +1439,19 @@ class UiIcons {
   static const IconData bold = IconData(0xea62, fontFamily: iconFontFamily);
 
   /// Font icon named "__underline__"
-  static const IconData underline =
-      IconData(0xea63, fontFamily: iconFontFamily);
+  static const IconData underline = IconData(
+    0xea63,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__italic__"
   static const IconData italic = IconData(0xea64, fontFamily: iconFontFamily);
 
   /// Font icon named "__strikethrough__"
-  static const IconData strikethrough =
-      IconData(0xea65, fontFamily: iconFontFamily);
+  static const IconData strikethrough = IconData(
+    0xea65,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__omega__"
   static const IconData omega = IconData(0xea66, fontFamily: iconFontFamily);
@@ -1226,36 +1460,52 @@ class UiIcons {
   static const IconData sigma = IconData(0xea67, fontFamily: iconFontFamily);
 
   /// Font icon named "__page-break__"
-  static const IconData pageBreak =
-      IconData(0xea68, fontFamily: iconFontFamily);
+  static const IconData pageBreak = IconData(
+    0xea68,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__superscript__"
-  static const IconData superscript =
-      IconData(0xea69, fontFamily: iconFontFamily);
+  static const IconData superscript = IconData(
+    0xea69,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__subscript__"
-  static const IconData subscript =
-      IconData(0xea6a, fontFamily: iconFontFamily);
+  static const IconData subscript = IconData(
+    0xea6a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__superscript2__"
-  static const IconData superscript2 =
-      IconData(0xea6b, fontFamily: iconFontFamily);
+  static const IconData superscript2 = IconData(
+    0xea6b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__subscript2__"
-  static const IconData subscript2 =
-      IconData(0xea6c, fontFamily: iconFontFamily);
+  static const IconData subscript2 = IconData(
+    0xea6c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__text-color__"
-  static const IconData textColor =
-      IconData(0xea6d, fontFamily: iconFontFamily);
+  static const IconData textColor = IconData(
+    0xea6d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__pagebreak__"
-  static const IconData pagebreak =
-      IconData(0xea6e, fontFamily: iconFontFamily);
+  static const IconData pagebreak = IconData(
+    0xea6e,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__clear-formatting__"
-  static const IconData clearFormatting =
-      IconData(0xea6f, fontFamily: iconFontFamily);
+  static const IconData clearFormatting = IconData(
+    0xea6f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__table__"
   static const IconData table = IconData(0xea70, fontFamily: iconFontFamily);
@@ -1264,8 +1514,10 @@ class UiIcons {
   static const IconData table2 = IconData(0xea71, fontFamily: iconFontFamily);
 
   /// Font icon named "__insert-template__"
-  static const IconData insertTemplate =
-      IconData(0xea72, fontFamily: iconFontFamily);
+  static const IconData insertTemplate = IconData(
+    0xea72,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__pilcrow__"
   static const IconData pilcrow = IconData(0xea73, fontFamily: iconFontFamily);
@@ -1280,28 +1532,40 @@ class UiIcons {
   static const IconData section = IconData(0xea76, fontFamily: iconFontFamily);
 
   /// Font icon named "__paragraph-left__"
-  static const IconData paragraphLeft =
-      IconData(0xea77, fontFamily: iconFontFamily);
+  static const IconData paragraphLeft = IconData(
+    0xea77,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__paragraph-center__"
-  static const IconData paragraphCenter =
-      IconData(0xea78, fontFamily: iconFontFamily);
+  static const IconData paragraphCenter = IconData(
+    0xea78,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__paragraph-right__"
-  static const IconData paragraphRight =
-      IconData(0xea79, fontFamily: iconFontFamily);
+  static const IconData paragraphRight = IconData(
+    0xea79,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__paragraph-justify__"
-  static const IconData paragraphJustify =
-      IconData(0xea7a, fontFamily: iconFontFamily);
+  static const IconData paragraphJustify = IconData(
+    0xea7a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__indent-increase__"
-  static const IconData indentIncrease =
-      IconData(0xea7b, fontFamily: iconFontFamily);
+  static const IconData indentIncrease = IconData(
+    0xea7b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__indent-decrease__"
-  static const IconData indentDecrease =
-      IconData(0xea7c, fontFamily: iconFontFamily);
+  static const IconData indentDecrease = IconData(
+    0xea7c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__share__"
   static const IconData share = IconData(0xea7d, fontFamily: iconFontFamily);
@@ -1346,34 +1610,46 @@ class UiIcons {
   static const IconData google3 = IconData(0xea8a, fontFamily: iconFontFamily);
 
   /// Font icon named "__google-plus__"
-  static const IconData googlePlus =
-      IconData(0xea8b, fontFamily: iconFontFamily);
+  static const IconData googlePlus = IconData(
+    0xea8b,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__google-plus2__"
-  static const IconData googlePlus2 =
-      IconData(0xea8c, fontFamily: iconFontFamily);
+  static const IconData googlePlus2 = IconData(
+    0xea8c,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__google-plus3__"
-  static const IconData googlePlus3 =
-      IconData(0xea8d, fontFamily: iconFontFamily);
+  static const IconData googlePlus3 = IconData(
+    0xea8d,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__hangouts__"
   static const IconData hangouts = IconData(0xea8e, fontFamily: iconFontFamily);
 
   /// Font icon named "__google-drive__"
-  static const IconData googleDrive =
-      IconData(0xea8f, fontFamily: iconFontFamily);
+  static const IconData googleDrive = IconData(
+    0xea8f,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__facebook__"
   static const IconData facebook = IconData(0xea90, fontFamily: iconFontFamily);
 
   /// Font icon named "__facebook2__"
-  static const IconData facebook2 =
-      IconData(0xea91, fontFamily: iconFontFamily);
+  static const IconData facebook2 = IconData(
+    0xea91,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__instagram__"
-  static const IconData instagram =
-      IconData(0xea92, fontFamily: iconFontFamily);
+  static const IconData instagram = IconData(
+    0xea92,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__whatsapp__"
   static const IconData whatsapp = IconData(0xea93, fontFamily: iconFontFamily);
@@ -1397,8 +1673,10 @@ class UiIcons {
   static const IconData renren = IconData(0xea99, fontFamily: iconFontFamily);
 
   /// Font icon named "__sina-weibo__"
-  static const IconData sinaWeibo =
-      IconData(0xea9a, fontFamily: iconFontFamily);
+  static const IconData sinaWeibo = IconData(
+    0xea9a,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__rss__"
   static const IconData rss = IconData(0xea9b, fontFamily: iconFontFamily);
@@ -1446,12 +1724,16 @@ class UiIcons {
   static const IconData behance2 = IconData(0xeaa9, fontFamily: iconFontFamily);
 
   /// Font icon named "__deviantart__"
-  static const IconData deviantart =
-      IconData(0xeaaa, fontFamily: iconFontFamily);
+  static const IconData deviantart = IconData(
+    0xeaaa,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__500px__"
-  static const IconData fiveHundredPx =
-      IconData(0xeaab, fontFamily: iconFontFamily);
+  static const IconData fiveHundredPx = IconData(
+    0xeaab,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__steam__"
   static const IconData steam = IconData(0xeaac, fontFamily: iconFontFamily);
@@ -1478,8 +1760,10 @@ class UiIcons {
   static const IconData trello = IconData(0xeab3, fontFamily: iconFontFamily);
 
   /// Font icon named "__wordpress__"
-  static const IconData wordpress =
-      IconData(0xeab4, fontFamily: iconFontFamily);
+  static const IconData wordpress = IconData(
+    0xeab4,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__joomla__"
   static const IconData joomla = IconData(0xeab5, fontFamily: iconFontFamily);
@@ -1524,12 +1808,16 @@ class UiIcons {
   static const IconData windows8 = IconData(0xeac2, fontFamily: iconFontFamily);
 
   /// Font icon named "__soundcloud__"
-  static const IconData soundcloud =
-      IconData(0xeac3, fontFamily: iconFontFamily);
+  static const IconData soundcloud = IconData(
+    0xeac3,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__soundcloud2__"
-  static const IconData soundcloud2 =
-      IconData(0xeac4, fontFamily: iconFontFamily);
+  static const IconData soundcloud2 = IconData(
+    0xeac4,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__skype__"
   static const IconData skype = IconData(0xeac5, fontFamily: iconFontFamily);
@@ -1538,19 +1826,25 @@ class UiIcons {
   static const IconData reddit = IconData(0xeac6, fontFamily: iconFontFamily);
 
   /// Font icon named "__hackernews__"
-  static const IconData hackernews =
-      IconData(0xeac7, fontFamily: iconFontFamily);
+  static const IconData hackernews = IconData(
+    0xeac7,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__wikipedia__"
-  static const IconData wikipedia =
-      IconData(0xeac8, fontFamily: iconFontFamily);
+  static const IconData wikipedia = IconData(
+    0xeac8,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__linkedin__"
   static const IconData linkedin = IconData(0xeac9, fontFamily: iconFontFamily);
 
   /// Font icon named "__linkedin2__"
-  static const IconData linkedin2 =
-      IconData(0xeaca, fontFamily: iconFontFamily);
+  static const IconData linkedin2 = IconData(
+    0xeaca,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__lastfm__"
   static const IconData lastfm = IconData(0xeacb, fontFamily: iconFontFamily);
@@ -1559,28 +1853,40 @@ class UiIcons {
   static const IconData lastfm2 = IconData(0xeacc, fontFamily: iconFontFamily);
 
   /// Font icon named "__delicious__"
-  static const IconData delicious =
-      IconData(0xeacd, fontFamily: iconFontFamily);
+  static const IconData delicious = IconData(
+    0xeacd,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__stumbleupon__"
-  static const IconData stumbleupon =
-      IconData(0xeace, fontFamily: iconFontFamily);
+  static const IconData stumbleupon = IconData(
+    0xeace,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__stumbleupon2__"
-  static const IconData stumbleupon2 =
-      IconData(0xeacf, fontFamily: iconFontFamily);
+  static const IconData stumbleupon2 = IconData(
+    0xeacf,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__stackoverflow__"
-  static const IconData stackoverflow =
-      IconData(0xead0, fontFamily: iconFontFamily);
+  static const IconData stackoverflow = IconData(
+    0xead0,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__pinterest__"
-  static const IconData pinterest =
-      IconData(0xead1, fontFamily: iconFontFamily);
+  static const IconData pinterest = IconData(
+    0xead1,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__pinterest2__"
-  static const IconData pinterest2 =
-      IconData(0xead2, fontFamily: iconFontFamily);
+  static const IconData pinterest2 = IconData(
+    0xead2,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__xing__"
   static const IconData xing = IconData(0xead3, fontFamily: iconFontFamily);
@@ -1592,8 +1898,10 @@ class UiIcons {
   static const IconData flattr = IconData(0xead5, fontFamily: iconFontFamily);
 
   /// Font icon named "__foursquare__"
-  static const IconData foursquare =
-      IconData(0xead6, fontFamily: iconFontFamily);
+  static const IconData foursquare = IconData(
+    0xead6,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__yelp__"
   static const IconData yelp = IconData(0xead7, fontFamily: iconFontFamily);
@@ -1623,26 +1931,34 @@ class UiIcons {
   static const IconData filePdf = IconData(0xeadf, fontFamily: iconFontFamily);
 
   /// Font icon named "__file-openoffice__"
-  static const IconData fileOpenoffice =
-      IconData(0xeae0, fontFamily: iconFontFamily);
+  static const IconData fileOpenoffice = IconData(
+    0xeae0,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__file-word__"
   static const IconData fileWord = IconData(0xeae1, fontFamily: iconFontFamily);
 
   /// Font icon named "__file-excel__"
-  static const IconData fileExcel =
-      IconData(0xeae2, fontFamily: iconFontFamily);
+  static const IconData fileExcel = IconData(
+    0xeae2,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__libreoffice__"
-  static const IconData libreoffice =
-      IconData(0xeae3, fontFamily: iconFontFamily);
+  static const IconData libreoffice = IconData(
+    0xeae3,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__html-five__"
   static const IconData htmlFive = IconData(0xeae4, fontFamily: iconFontFamily);
 
   /// Font icon named "__html-five2__"
-  static const IconData htmlFive2 =
-      IconData(0xeae5, fontFamily: iconFontFamily);
+  static const IconData htmlFive2 = IconData(
+    0xeae5,
+    fontFamily: iconFontFamily,
+  );
 
   /// Font icon named "__css3__"
   static const IconData css3 = IconData(0xeae6, fontFamily: iconFontFamily);
