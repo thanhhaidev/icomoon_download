@@ -6,8 +6,10 @@ import 'package:dart_style/dart_style.dart';
 import 'package:icomoon_download/src/cli/arguments.dart';
 import 'package:icomoon_download/src/cli/options.dart';
 import 'package:icomoon_download/src/common/api.dart';
+import 'package:icomoon_download/src/common/font.dart';
 import 'package:icomoon_download/src/utils/logger.dart';
 import 'package:icomoon_generator/icomoon_generator.dart';
+import 'package:path/path.dart' as path;
 import 'package:yaml/yaml.dart';
 
 final _argParser = ArgParser(allowTrailingOptions: true);
@@ -54,6 +56,7 @@ void _run(CliArguments parsedArgs) async {
       parsedArgs.isTemp ?? false,
       parsedArgs.hostId,
       parsedArgs.projectName,
+      revision: parsedArgs.revision,
     );
     logger.i('Downloading IcoMoon font "${parsedArgs.projectName}"');
     final selectionData = await icomoonService.getSelection();
@@ -71,25 +74,29 @@ void _run(CliArguments parsedArgs) async {
       exit(1);
     }
 
-    logger.i('Downloading TTF file for "${selection.name}"');
-    final ttf = await icomoonService.getTTF(selection.name);
-    final ttfPath = fonts
-        .singleWhere(
-            (font) => font.family.toLowerCase() == selection.name.toLowerCase())
-        .assets
-        .first;
+    final font = _findFont(
+      fonts,
+      parsedArgs.familyName ?? selection.name,
+    );
+    final fontLabel = parsedArgs.familyName ??
+        (selection.name.isNotEmpty ? selection.name : font.family);
+    logger.i('Downloading TTF file for "$fontLabel"');
+    final ttfFontName =
+        selection.name.isNotEmpty ? selection.name : font.family;
+    final ttf = await icomoonService.getTTF(ttfFontName);
+    final ttfPath = font.assets.first;
 
     if (ttf == null) {
-      logger.e('No TTF file found for the font "${selection.name}".');
+      logger.e('No TTF file found for the font "$fontLabel".');
       exit(1);
     }
 
-    logger.i('Creating TTF file for "${selection.name}"');
+    logger.i('Creating TTF file for "$fontLabel"');
     final ttfFile = await icomoonService.createFile(ttfPath);
     await ttfFile.writeAsBytes(ttf);
     logger.t('TTF file created: ${ttfFile.path}');
 
-    logger.i('Creating selection file for "${selection.name}"');
+    logger.i('Creating selection file for "$fontLabel"');
     final hasSelectionFile = parsedArgs.selectionFile != null;
     if (hasSelectionFile && !parsedArgs.selectionFile!.existsSync()) {
       parsedArgs.selectionFile!.createSync(recursive: true);
@@ -114,11 +121,13 @@ void _run(CliArguments parsedArgs) async {
     }
     logger.i('Selection file created: ${parsedArgs.selectionFile?.path}');
 
-    logger.i('Generating Flutter class for "${selection.name}"');
+    logger.i('Generating Flutter class for "$fontLabel"');
     var classString = generateFlutterClass(
       iconsList: selection.icons,
       className: parsedArgs.className,
       package: parsedArgs.fontPackage,
+      familyName: parsedArgs.familyName ?? font.family,
+      fontFileName: parsedArgs.fontFileName ?? path.basename(ttfPath),
     );
 
     if (!parsedArgs.classFile.existsSync()) {
@@ -128,6 +137,7 @@ void _run(CliArguments parsedArgs) async {
           'Output file for a Flutter class already exists (${parsedArgs.classFile.path}) - '
           'overwriting it');
     }
+
     logger.i('Writing Flutter class to "${parsedArgs.classFile.path}"');
 
     if (parsedArgs.format ?? kDefaultFormat) {
@@ -143,6 +153,27 @@ void _run(CliArguments parsedArgs) async {
   }
 
   logger.i('Generated in ${stopwatch.elapsedMilliseconds}ms');
+}
+
+Font _findFont(List<Font> fonts, String selectionName) {
+  if (selectionName.isNotEmpty) {
+    final matchingFonts = fonts
+        .where(
+            (font) => font.family.toLowerCase() == selectionName.toLowerCase())
+        .toList();
+    if (matchingFonts.length == 1) {
+      return matchingFonts.single;
+    }
+  }
+
+  if (fonts.length == 1) {
+    return fonts.single;
+  }
+
+  throw StateError(
+    'Unable to determine the font for the selection. '
+    'Set family_name or use a pubspec.yaml with exactly one Flutter font.',
+  );
 }
 
 void _printHelp() {
