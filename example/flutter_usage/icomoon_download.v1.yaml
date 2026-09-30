@@ -1,0 +1,14 @@
+icomoon_download:
+  project_name: icomoon_generator
+  host_id: "b90098d279"
+  is_temp: true
+
+  output_selection_file: fonts/selection_v1.json
+  output_class_file: lib/ui/icons_v1.dart
+
+  class_name: V1Icons
+  family_name: IcomoonV1
+  font_file_name: icomoon_v1.ttf
+  format: true
+
+  verbose: false

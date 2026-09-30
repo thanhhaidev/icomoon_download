@@ -20,9 +20,12 @@ const _kArgAllowedTypes = <CliArgument, List<Type>>{
   CliArgument.isTemp: [bool],
   CliArgument.projectName: [String],
   CliArgument.hostId: [String],
+  CliArgument.revision: [String],
   CliArgument.classFile: [String],
   CliArgument.className: [String],
   CliArgument.fontPackage: [String],
+  CliArgument.familyName: [String],
+  CliArgument.fontFileName: [String],
   CliArgument.format: [bool],
   CliArgument.verbose: [bool],
   CliArgument.help: [bool],
@@ -36,8 +39,11 @@ const kDefaultIsTemp = true;
 const kOptionNames = EnumClass<CliArgument, String>({
   CliArgument.selectionFile: 'output-selection-file',
   CliArgument.isTemp: 'is-temp',
+  CliArgument.revision: 'revision',
   CliArgument.className: 'class-name',
   CliArgument.fontPackage: 'package',
+  CliArgument.familyName: 'family-name',
+  CliArgument.fontFileName: 'font-file-name',
   CliArgument.format: 'format',
   CliArgument.verbose: 'verbose',
   CliArgument.help: 'help',
@@ -49,9 +55,12 @@ const kConfigKeys = EnumClass<CliArgument, String>({
   CliArgument.isTemp: 'is_temp',
   CliArgument.projectName: 'project_name',
   CliArgument.hostId: 'host_id',
+  CliArgument.revision: 'revision',
   CliArgument.classFile: 'output_class_file',
   CliArgument.className: 'class_name',
   CliArgument.fontPackage: 'package',
+  CliArgument.familyName: 'family_name',
+  CliArgument.fontFileName: 'font_file_name',
   CliArgument.format: 'format',
   CliArgument.verbose: 'verbose',
 });
@@ -65,6 +74,7 @@ enum CliArgument {
   // config public url form icomoon.io (required)
   projectName,
   hostId,
+  revision,
   classFile,
 
   isTemp,
@@ -73,6 +83,8 @@ enum CliArgument {
   // Class-related
   className,
   fontPackage,
+  familyName,
+  fontFileName,
   format,
 
   // Others
@@ -88,11 +100,14 @@ class CliArguments {
   CliArguments(
     this.projectName,
     this.hostId,
+    this.revision,
     this.classFile,
     this.selectionFile,
     this.isTemp,
     this.className,
     this.fontPackage,
+    this.familyName,
+    this.fontFileName,
     this.format,
     this.verbose,
     this.configFile,
@@ -108,11 +123,14 @@ class CliArguments {
     return CliArguments(
       map[CliArgument.projectName] as String,
       map[CliArgument.hostId] as String,
+      map[CliArgument.revision] as String?,
       map[CliArgument.classFile] as File,
       map[CliArgument.selectionFile] as File?,
       map[CliArgument.isTemp] as bool?,
       map[CliArgument.className] as String?,
       map[CliArgument.fontPackage] as String?,
+      map[CliArgument.familyName] as String?,
+      map[CliArgument.fontFileName] as String?,
       map[CliArgument.format] as bool?,
       map[CliArgument.verbose] as bool?,
       map[CliArgument.configFile] as File?,
@@ -121,12 +139,15 @@ class CliArguments {
 
   final String projectName;
   final String hostId;
+  final String? revision;
   final File classFile;
 
   final File? selectionFile;
   final bool? isTemp;
   final String? className;
   final String? fontPackage;
+  final String? familyName;
+  final String? fontFileName;
   final bool? format;
   final bool? verbose;
   final File? configFile;

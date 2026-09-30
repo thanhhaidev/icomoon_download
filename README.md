@@ -50,7 +50,16 @@ Other options:
 - `--[no-]-is-temp`
   Using free version of icomoon.
 - `-s` or `--output-selection-file=<path>`
-  Output file for the selection.json. If not provided, the file is saved in the current working directory.
+  Output file for the downloaded IcoMoon JSON. This supports both the legacy
+  `selection.json` format and the current `.icomoon.json` format. If not
+  provided, the file is saved as `selection.json` in the current working
+  directory.
+- `--family-name=<name>`
+  Font family name used in generated `IconData`. Defaults to the matching
+  Flutter font family.
+- `--font-file-name=<name>`
+  Font asset file name used in generated documentation. Defaults to the
+  downloaded TTF asset name.
 - `-z` or `--config-file=<path>`
   Path to icomoon_download yaml configuration file.
   pubspec.yaml and icomoon_download.yaml files are used by default.
@@ -90,6 +99,8 @@ icomoon_download:
   output_class_file: lib/ui/icons.dart
 
   class_name: UiIcons
+  family_name: Icomoon
+  font_file_name: icomoon.ttf
   format: true
 
   verbose: false
@@ -97,6 +108,31 @@ icomoon_download:
 
 `project_name`, `host_id` and `output_class_file` keys are required.
 It's possible to specify any other config file by using `--config-file` option.
+
+The `family_name` and `font_file_name` options are useful when a project
+contains multiple IcoMoon exports. Keep each export's JSON, TTF, generated
+class, and Flutter font family paired.
+
+## Current IcoMoon JSON format
+
+The downloader first requests the current IcoMoon endpoint
+`<project>.icomoon.json` and falls back to the legacy `selection.json`
+endpoint when necessary. The downloaded JSON is passed to
+`icomoon_generator` 2.0.0, which supports both `glyphs[].extras` (current
+IcoMoon) and `icons[].properties` (legacy IcoMoon) formats.
+
+For current temporary projects, the downloader checks both current font
+export paths, `/<revision>/font/fonts/Untitled.ttf` and
+`/0/font/fonts/Untitled.ttf`, before trying legacy TTF paths.
+
+For revision-based exports, provide the revision from the IcoMoon URL with
+`--revision=<revision>` or the `revision` configuration key. The downloader
+does not hard-code a revision.
+
+For current IcoMoon projects, keep the matching TTF and JSON from the same
+project. When the JSON does not contain a font name, the downloader uses the
+single Flutter font declared in `pubspec.yaml`; projects with multiple fonts
+can set `family_name` explicitly.
 
 ## Contributing
 

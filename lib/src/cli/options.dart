@@ -18,6 +18,16 @@ void defineOptions(ArgParser argParser) {
           'Name of a package that provides a font. Used to provide a font through package dependency.',
       valueHelp: 'name',
     )
+    ..addOption(
+      kOptionNames[CliArgument.familyName]!,
+      help: 'Font family name used in generated IconData.',
+      valueHelp: 'name',
+    )
+    ..addOption(
+      kOptionNames[CliArgument.fontFileName]!,
+      help: 'Font asset file name used in generated documentation.',
+      valueHelp: 'name',
+    )
     ..addFlag(
       kOptionNames[CliArgument.format]!,
       help: 'Formate dart generated code.',
@@ -28,6 +38,11 @@ void defineOptions(ArgParser argParser) {
       kOptionNames[CliArgument.isTemp]!,
       help: 'Default is true. If true, using  free version of icomoon.',
       defaultsTo: kDefaultIsTemp,
+    )
+    ..addOption(
+      kOptionNames[CliArgument.revision]!,
+      help: 'Revision used by the current IcoMoon font export URL.',
+      valueHelp: 'revision',
     )
     ..addOption(
       kOptionNames[CliArgument.selectionFile]!,
